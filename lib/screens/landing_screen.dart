@@ -6,6 +6,7 @@ class LandingScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final mediaQuery = MediaQuery.of(context);
     return Scaffold(
       body: SafeArea(
         child: Container(
@@ -15,6 +16,7 @@ class LandingScreen extends StatelessWidget {
                 children: <Widget>[
                   Container(
                     padding: const EdgeInsets.all(10),
+                    height: mediaQuery.size.height * 0.24,
                     width: 350,
                     child: Column(
                       children: const [

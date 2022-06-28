@@ -67,7 +67,16 @@ class CareerInfoScreen extends StatelessWidget {
                   Container(
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.end,
-                      children: infoData.resources.map((e) => Text(e)).toList(),
+                      children: infoData.resources
+                          .map(
+                            (e) => Container(
+                              padding: const EdgeInsets.symmetric(
+                                  horizontal: 10, vertical: 3.0),
+                              width: double.infinity,
+                              child: Text(e),
+                            ),
+                          )
+                          .toList(),
                     ),
                   ),
                 ],

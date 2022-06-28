@@ -13,8 +13,8 @@ List<Career> CAREER_DATA = [
       description: "Networking Career are careers that deals with network"),
   Career(
       id: "c3",
-      title: "Cloud Computing",
-      description: "Career that deals with cloud and its technologies"),
+      title: "Writing",
+      description: "Career that deals with writing and teaching"),
   Career(
       id: "C4",
       title: "Graphics",
@@ -63,6 +63,9 @@ List<CareerDetail> CODING_PATH = const [
         id: "net1",
         course: "Network Technician",
       ),
+      PathInfo(id: "net2", course: "Network Administrator"),
+      PathInfo(id: "net3", course: "Network Engineer"),
+      PathInfo(id: "net4", course: "Cable Technician"),
     ],
   )
 ];
@@ -83,7 +86,7 @@ List<CareerInfo> CAREER_INFO = [
     id: "app",
     title: "Mobile App Developer",
     content:
-        "n app developer designs and codes fully functional software applications. This position requires collaboration with clients in order to gain a full understanding of the software request. App developers also work with the client's IT department to help set precise specifications for the needed applications. Other responsibilities include designing creative prototypes, finishing applications by specified deadlines, evaluating existing programs for new features and troubleshooting malfunctioning applications.",
+        "An app developer designs and codes fully functional software applications. This position requires collaboration with clients in order to gain a full understanding of the software request. App developers also work with the client's IT department to help set precise specifications for the needed applications. Other responsibilities include designing creative prototypes, finishing applications by specified deadlines, evaluating existing programs for new features and troubleshooting malfunctioning applications.",
     videoUrl: "https://www.youtube.com/watch?v=SW2tT5njHek",
     resources: [
       "https://www.appbrewery.co/p/intro-to-flutter",
@@ -102,7 +105,7 @@ List<CareerInfo> CAREER_INFO = [
   ),
   const CareerInfo(
     id: "prog",
-    title: "Computer Progammer",
+    title: "Computer Programmer",
     content:
         " Computer programmers write and test the code that allows software applications to operate. They also respond to user requests to correct malfunctioning code and rewrite and restore the code so that it functions properly for users. In addition, they test the functionality of software and collaborate with other programmers when the need arises",
     videoUrl: "https://www.youtube.com/watch?v=QERdqYoK8M4",
@@ -138,5 +141,35 @@ List<CareerInfo> CAREER_INFO = [
       content:
           "Software developers create software that allows users to perform tasks such as playing a game, building a spreadsheet or watching a movie through different modes of technology. Responsibilities include testing and evaluating new programs, maintaining and upgrading systems, training users, testing and evaluating new software, finding areas for improvement in existing software, developing the necessary modifications and documenting all work for future reference.",
       videoUrl: "https://www.youtube.com/watch?v=J6rVaFzOEP8",
-      resources: ['freecodecamp.com'])
+      resources: ['freecodecamp.com']),
+  const CareerInfo(
+      id: "net1",
+      title: "Network Technician",
+      content:
+          "A network technician helps implement network designs for a company or organization. They build and maintain the physical and digital connections necessary for the systems that network engineers design. They may work closely with other IT professionals and equipment users to troubleshoot problems and make sure all networks are functional. Sometimes technicians travel to other sites to repair equipment or fix on-site issues.",
+      videoUrl: "https://www.youtube.com/watch?v=yT_3o0mfbA8",
+      resources: [
+        "https://www.coursera.org/browse/information-technology/networking?irclickid=VFgXBDSDNxyIRukTHlSCwSkLUkDwwDXy1VUYV40&irgwc=1&utm_medium=partners&utm_source=impact&utm_campaign=2677884&utm_content=b2c"
+      ]),
+  const CareerInfo(
+      id: "net2",
+      title: "Network Administator",
+      content:
+          "A network administrator maintains and develops local and wide area networks for an organization. They have a more senior role than a network technician, and research possible upgrades, create solutions for network problems and may prepare reports on the network's functionality as well as helping with troubleshooting and maintenance.",
+      videoUrl: "https://www.youtube.com/watch?v=99ub4ZOcLRc",
+      resources: []),
+  const CareerInfo(
+      id: "net3",
+      title: "Network Engineer",
+      content:
+          "A network engineer leads the design and implementation for an organization's internal and external networks. They usually focus on upgrades, security testing and evaluating potential products from other companies, but they may also install network equipment like routers and servers, and make sure individual machines can connect to all networks.",
+      videoUrl: "https://www.youtube.com/watch?v=yT_3o0mfbA8",
+      resources: []),
+  const CareerInfo(
+      id: "net4",
+      title: "Cable Technician",
+      content:
+          "A cable technician works to install, maintain and troubleshoot physical cable connections to homes and businesses. They make sure that employees or residents have network connectivity and reasonable speeds. They may also inspect and fix service towers, outside cable lines and other connectivity equipment.",
+      videoUrl: "https://www.youtube.com/watch?v=6GokHhj-2GY",
+      resources: []),
 ];
