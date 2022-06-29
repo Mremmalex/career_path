@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:carear_path/backend_data.dart';
-import 'package:carear_path/components/career_path_item.dart';
+import '../../backend_data.dart';
+import '/components/career_path_item.dart';
 
 class CareerPathScreen extends StatefulWidget {
   const CareerPathScreen({Key? key}) : super(key: key);

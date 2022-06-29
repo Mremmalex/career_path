@@ -1,5 +1,5 @@
-import 'package:carear_path/screens/career_path_screen.dart';
 import 'package:flutter/material.dart';
+import '/screens/career_path_screen.dart';
 
 class LandingScreen extends StatelessWidget {
   const LandingScreen({Key? key}) : super(key: key);

@@ -1,5 +1,5 @@
-import 'package:carear_path/screens/career_details_screen.dart';
 import 'package:flutter/material.dart';
+import '/screens/career_details_screen.dart';
 
 class CareerPathItem extends StatelessWidget {
   final String id;
