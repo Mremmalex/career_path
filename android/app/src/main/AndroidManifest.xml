@@ -2,7 +2,7 @@
     package="com.example.carear_path">
    <uses-permission android:name="android.permission.INTERNET" />
    <application
-        android:label="carear_path"
+        android:label="Career Path"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
