@@ -16,12 +16,12 @@ List<Career> CAREER_DATA = [
       title: "Writing",
       description: "Career that deals with writing and teaching"),
   Career(
-      id: "C4",
+      id: "c4",
       title: "Graphics",
       description: "Careers that deals with graphics and its technologies"),
 ];
 
-List<CareerDetail> CODING_PATH = const [
+List<CareerDetail> CAREER_PATH = const [
   CareerDetail(id: "c1", path: [
     PathInfo(
       id: "web1",
@@ -58,7 +58,7 @@ List<CareerDetail> CODING_PATH = const [
   ]),
   CareerDetail(
     id: "c2",
-    path: [
+    path: <PathInfo>[
       PathInfo(
         id: "net1",
         course: "Network Technician",
@@ -67,10 +67,23 @@ List<CareerDetail> CODING_PATH = const [
       PathInfo(id: "net3", course: "Network Engineer"),
       PathInfo(id: "net4", course: "Cable Technician"),
     ],
-  )
+  ),
+  CareerDetail(id: "c3", path: <PathInfo>[
+    PathInfo(id: "wrt1", course: "Technical Writer"),
+    PathInfo(id: "wrt2", course: "Developer Advocate"),
+    PathInfo(id: "wrt3", course: "Content Writer"),
+    PathInfo(id: "wrt4", course: "CopyWriter"),
+  ]),
+  CareerDetail(id: "c4", path: <PathInfo>[
+    PathInfo(id: "grp1", course: "User experience (UX) designer"),
+    PathInfo(id: "grp2", course: "User interface (UI) designer"),
+    PathInfo(id: "grp3", course: "Advertising designer"),
+    PathInfo(id: "grp4", course: "Multimedia designer")
+  ])
 ];
 
 List<CareerInfo> CAREER_INFO = [
+  // Coding Career Path
   const CareerInfo(
     id: "web1",
     title: "Web Developer",
@@ -142,6 +155,8 @@ List<CareerInfo> CAREER_INFO = [
           "Software developers create software that allows users to perform tasks such as playing a game, building a spreadsheet or watching a movie through different modes of technology. Responsibilities include testing and evaluating new programs, maintaining and upgrading systems, training users, testing and evaluating new software, finding areas for improvement in existing software, developing the necessary modifications and documenting all work for future reference.",
       videoUrl: "https://www.youtube.com/watch?v=J6rVaFzOEP8",
       resources: ['freecodecamp.com']),
+
+  // Networking Career path
   const CareerInfo(
       id: "net1",
       title: "Network Technician",
@@ -153,7 +168,7 @@ List<CareerInfo> CAREER_INFO = [
       ]),
   const CareerInfo(
       id: "net2",
-      title: "Network Administator",
+      title: "Network Administrator",
       content:
           "A network administrator maintains and develops local and wide area networks for an organization. They have a more senior role than a network technician, and research possible upgrades, create solutions for network problems and may prepare reports on the network's functionality as well as helping with troubleshooting and maintenance.",
       videoUrl: "https://www.youtube.com/watch?v=99ub4ZOcLRc",
@@ -172,4 +187,55 @@ List<CareerInfo> CAREER_INFO = [
           "A cable technician works to install, maintain and troubleshoot physical cable connections to homes and businesses. They make sure that employees or residents have network connectivity and reasonable speeds. They may also inspect and fix service towers, outside cable lines and other connectivity equipment.",
       videoUrl: "https://www.youtube.com/watch?v=6GokHhj-2GY",
       resources: []),
+
+  // Writing career path
+  const CareerInfo(
+      id: "wrt1",
+      title: "Technical Writer",
+      content:
+          "technical writers break down complex technical products into easy-to-understand guides that help the end-user understand how to use the products and services. They are subject matter experts that often have an educational background in technical fields including engineering, computer science, information technology, and information development. Technical writing is a type of writing that involves a specific set of writing skills — particularly being able to translate complex topics into simple terms for users. Most technical writers are adept at transforming graphs, headings, charts, and using tools such as excel and other programs to increase usability. Many will also have certifications or have taken technical writing courses and they may have a background in software development or a related technical field.",
+      videoUrl: "https://www.youtube.com/watch?v=9SB4tfD0hxM",
+      resources: []),
+  const CareerInfo(
+      id: "wrt2",
+      title: "Developer Advocate",
+      content:
+          "a developer advocate is really there to act as the liaison between the developers that are using the product and the product team that is building the solution.” They function as a bridge, teaching users how to get the most out of the software and relaying their feedback to the company.",
+      videoUrl: "https://www.youtube.com/watch?v=tXQXYCKNA4M",
+      resources: []),
+  const CareerInfo(
+      id: "wrt4",
+      title: "CopyWriting",
+      content:
+          "A copywriter writes copy for a variety of materials and mediums, including blogs, online articles, websites, advertisements and social media. They rely on their engaging and persuasive writing abilities to encourage consumers to use a business’ products or services.",
+      videoUrl: "https://www.youtube.com/watch?v=OLIrJ5WUFIs",
+      resources: []),
+  const CareerInfo(
+      id: "grp1",
+      title: "User experience (UX) designer",
+      content:
+          " UX designers make products, services and websites enjoyable and accessible for users. They consider the intended end-use of the product and how the product feels to the consumer to ensure it is a user-friendly product or service. UX designers most commonly work in web design to make websites visually pleasing and easy for customers to navigate. They also work with other technology-based products, including software, gaming systems, computers and automobiles to develop visual aesthetics and graphics. UX designers ensure the product has a logical flow from one step to the next. They test the product under normal usage and resolve any inconsistencies in the appearance or flow.",
+      videoUrl: "https://www.youtube.com/watch?v=t0aCoqXKFOU",
+      resources: []),
+  const CareerInfo(
+      id: "grp2",
+      title: "User interface (UI) designer",
+      content:
+          "The user interface designer is responsible for ensuring every webpage or operational step of the final product follows the user experience (UX) designer's intent. They typically have basic coding skills and are able to develop the designer's vision by working with software programming experts. UI designers make webpages, advertisements and electronic programming easy for the consumer to interact with. They must ensure that the UX design is feasible and well-executed.",
+      videoUrl: "https://www.youtube.com/watch?v=SaXCpSiHvcI",
+      resources: []),
+  const CareerInfo(
+      id: "grp3",
+      title: "Advertising designer",
+      content:
+          "Advertising designers use graphic design, sketching and photography to create visually compelling marketing materials for a brand or company. They create billboards, magazine advertisements, website advertisements and any other requested promotional materials. They sketch or use CAD software to develop an initial concept based on marketing and public relations strategies. They may create a few variations of a concept to present to the advertising leadership, and they listen to the leadership's feedback to perfect the final design.",
+      videoUrl: "https://www.youtube.com/watch?v=OA0dB6rmhPc",
+      resources: []),
+  const CareerInfo(
+      id: "grp4",
+      title: "Multimedia designer",
+      content:
+          "Multimedia designers create complex animated images and videos using art and computerized animation programs. They plan out the animation by sketching, creating scale models and developing computerized graphics to build the story. They are responsible for developing the graphics for the story's characters, background scenes and props.",
+      videoUrl: "https://www.youtube.com/watch?v=bq1V8dZfLsM",
+      resources: [])
 ];

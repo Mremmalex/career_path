@@ -14,7 +14,7 @@ class CareerDetailsScreen extends StatelessWidget {
   }
 
   CareerDetail getPathData(String id) {
-    return CODING_PATH.firstWhere((element) => element.id == id);
+    return CAREER_PATH.firstWhere((element) => element.id == id);
   }
 
   @override
