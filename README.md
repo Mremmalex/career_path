@@ -1,4 +1,4 @@
-# carear_path
+# career_path
 
 A new Flutter project.
 
