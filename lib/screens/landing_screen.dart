@@ -34,7 +34,7 @@ class LandingScreen extends StatelessWidget {
                           height: 10,
                         ),
                         Text(
-                          "At Career Path we help guide you to the right path for your tech jurney",
+                          "At Career Path we help guide you to the right path for your tech journey",
                           textAlign: TextAlign.center,
                           style: TextStyle(
                               fontSize: 15, fontWeight: FontWeight.w600),
